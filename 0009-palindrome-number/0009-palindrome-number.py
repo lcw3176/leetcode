@@ -12,7 +12,6 @@ class Solution:
             return True
 
         middle_index = int(len(value) // 2)
-        one = []
         
         for i in range(0, middle_index):
             if value[i] != value[len(value) - 1 - i]:
