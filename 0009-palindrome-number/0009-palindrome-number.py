@@ -6,7 +6,7 @@ class Solution:
         if x == 0:
             return True
         
-        value = list(str(x))
+        value = str(x)
 
         if len(value) == 1:
             return True
