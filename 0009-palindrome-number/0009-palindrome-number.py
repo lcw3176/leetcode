@@ -1,5 +1,5 @@
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
+class Solution(object):
+    def isPalindrome(self, x):
         if x < 0:
             return False
         
@@ -18,4 +18,3 @@ class Solution:
                 return False
 
         return True
-            
